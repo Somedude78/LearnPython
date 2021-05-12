@@ -1,0 +1,25 @@
+<div id="toolbar">
+  <h1>Learn Pyhton - Admin</h1>
+  <div>
+    <ul>
+      <li><a href="admin">     Home  </a></li>
+      <li><a href="messages">  Messages </a></li>
+    </ul>
+  </div>
+</div>
+
+<div id="newsletter" *ngFor="let index of homeData">
+  <div id="newsletterImage">
+    <img *ngIf=" index.image != '' " src="{{ index.image }}" alt="placeholder">
+    <img *ngIf=" index.image == '' " src="{{ this.placeholder }}" alt="placeholder">
+  </div>
+
+  <div id="newsletterBody">
+    <h2 id="newsletterTitle"> {{ index.title }} </h2>
+    <br><br>
+    <p id="newsletterContent"> {{ index.content }}</p>
+    <br>
+
+    <a *ngIf="index.link != '' "href="{{ index.link }}" target="_blank"> See more >></a>
+  </div>
+</div>

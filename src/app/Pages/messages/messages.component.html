@@ -1,0 +1,20 @@
+<div id="toolbar">
+  <h1>Learn Pyhton - Admin</h1>
+  <div>
+    <ul>
+      <li><a href="admin">     Home  </a></li>
+      <li><a href="messages">  Messages </a></li>
+    </ul>
+  </div>
+</div>
+
+<div id="newsletter" *ngFor="let index of MessageData">
+
+
+  <div id="newsletterBody">
+    <h2 id="newsletterTitle"> {{ index.firstName + index.lastName }} </h2>
+    <br><br>
+    <p id="newsletterContent"> {{ index.message }}</p>
+    <br>
+  </div>
+</div>

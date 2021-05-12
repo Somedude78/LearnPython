@@ -1,0 +1,101 @@
+#toolbar{
+  background-color: #282A35;
+  display: flex;
+  width: 100%;
+  height: 5rem;
+  overflow: hidden;
+  align-items: center;
+  color: white;
+  justify-content: space-between;
+  white-space: nowrap;
+}
+
+#toolbar h1{
+  margin-left: 2%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  padding-right: 80px;
+  margin-right: 7%;
+}
+
+li{
+  margin-right: 8%;
+  white-space: nowrap;
+}
+
+li a {
+  color: white;
+  display: block;
+  padding: 7px 13px 7px 13px;
+
+  background-color: #AD310B ;
+  border-radius: 10%;
+}
+
+li a:hover{
+  background-color: #DD310B;
+  transition: background-color 600ms;
+}
+
+
+#newsletter {
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  background-color: white;
+  border-radius: 15px;
+  overflow: auto;
+  height: 15rem;
+}
+
+#newsletterImage {
+  float: left;
+  width: 25%;
+  height: 100%;
+
+}
+
+#newsletterImage img {
+  padding: 0;
+  margin: 0;
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+}
+
+#newsletterBody{
+  float: right;
+  width: 73%;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+#newsletterTitle {
+
+  float: left;
+  margin-bottom: 5%;
+}
+
+#newsletterContent {
+  float: left;
+  text-align: left;
+}
+
+#newsletterBody a{
+  overflow: hidden;
+  margin-top: 4%;
+  float: left;
+  text-decoration: underline;
+}

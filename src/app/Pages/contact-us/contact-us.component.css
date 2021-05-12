@@ -1,0 +1,111 @@
+#toolbar{
+  background-color: #282A35;
+  display: flex;
+  width: 100%;
+  height: 5rem;
+  overflow: hidden;
+  align-items: center;
+  color: white;
+  justify-content: space-between;
+  white-space: nowrap;
+}
+
+#toolbar h1{
+  margin-left: 2%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  padding-right: 80px;
+  margin-right: 7%;
+}
+
+li{
+  margin-right: 8%;
+  white-space: nowrap;
+}
+
+li a {
+  color: white;
+  display: block;
+  padding: 7px 13px 7px 13px;
+
+  background-color: #AD310B ;
+  border-radius: 10%;
+}
+
+li a:hover{
+  background-color: #DD310B;
+  transition: background-color 600ms;
+}
+
+#contactFormDiv {
+  max-width: 33rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  margin-top: 4%;
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+#contactFormTittle{
+  align-items: center;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+#contactFormDiv > * {
+  margin: 1%;
+}
+
+#contactCenterDiv {
+  width:50%;
+  padding-left: 15%;
+}
+
+.contactFormLabel{
+  margin-bottom: 23%;
+}
+
+#labelColumn{
+  float: left;
+  width: 30%;
+  white-space: nowrap;
+}
+
+#inputColumn{
+  float: right;
+  width: 60%;
+}
+
+.contactFormInput{
+  margin-bottom: 3%;
+  width: 160%;
+  padding: 7px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#submitButton{
+  width: 97%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 43%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#submitButton:hover {
+  background-color: #45a049;
+  transition: background-color 300ms;
+}

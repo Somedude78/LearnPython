@@ -1,0 +1,36 @@
+<div id="toolbar">
+  <h1>Learn Pyhton</h1>
+  <div>
+    <ul>
+      <li><a href="Home">     Home  </a></li>
+      <li><a href="Post">     Post  </a></li>
+      <li><a href="Contact">  Contact us </a></li>
+    </ul>
+  </div>
+</div>
+
+<div id="PostformDiv">
+  <div id="postformTittle">
+    <h2>Post something</h2>
+  </div>
+
+  <div id="postCenterDiv">
+    <div id="postLabelColumn">
+      <p class="PostFormLabel"> <label>Image:                   </label>  </p>
+      <p class="PostFormLabel"> <label>Tittle:*                 </label>	</p>
+      <p class="PostFormLabel"> <label>Link to external sites:  </label>	</p>
+      <p class="PostFormLabel"> <label>Description:*            </label>  </p>
+    </div>
+
+  </div>
+  <div id="postInputColumn">
+    <button id="AddImageButton" > Add Image	</button><br>
+    <input class="PostFormInput" [(ngModel)]="title" type="text" >
+    <input class="PostFormInput" [(ngModel)]="link" type="text" >
+    <textarea class="PostFormInput" [(ngModel)]="description" rows="10"></textarea>
+  </div>
+
+  <div id="formsubmitDiv">
+    <button id="postSubmitButton" (click)="onSubmit()"type="submit"> Send	</button>
+  </div>
+</div>
